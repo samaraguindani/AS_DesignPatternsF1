@@ -1,0 +1,14 @@
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\bin\Debug\net8.0\AS_DesignPatternsF1.exe
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\bin\Debug\net8.0\AS_DesignPatternsF1.deps.json
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\bin\Debug\net8.0\AS_DesignPatternsF1.runtimeconfig.json
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\bin\Debug\net8.0\AS_DesignPatternsF1.dll
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\bin\Debug\net8.0\AS_DesignPatternsF1.pdb
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\obj\Debug\net8.0\AS_DesignPatternsF1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\obj\Debug\net8.0\AS_DesignPatternsF1.AssemblyInfoInputs.cache
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\obj\Debug\net8.0\AS_DesignPatternsF1.AssemblyInfo.cs
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\obj\Debug\net8.0\AS_DesignPatternsF1.csproj.CoreCompileInputs.cache
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\obj\Debug\net8.0\AS_DesignPatternsF1.dll
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\obj\Debug\net8.0\refint\AS_DesignPatternsF1.dll
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\obj\Debug\net8.0\AS_DesignPatternsF1.pdb
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\obj\Debug\net8.0\AS_DesignPatternsF1.genruntimeconfig.cache
+C:\Users\samil\OneDrive\Área de Trabalho\AS_DesignPatternsF1\AS_DesignPatternsF1\obj\Debug\net8.0\ref\AS_DesignPatternsF1.dll

@@ -1,6 +1,6 @@
 ﻿namespace AS_DesignPatternsF1.MVC;
 
-// Model: representa os dados do sistema (um piloto da F1)
+// Model (Piloto): representa os dados do sistema
 public class Piloto
 {
     public string Nome { get; set; }

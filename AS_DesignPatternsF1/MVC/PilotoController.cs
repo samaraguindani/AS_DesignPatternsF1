@@ -1,6 +1,6 @@
 ﻿namespace AS_DesignPatternsF1.MVC;
 
-// Controller: recebe comandos, atualiza o Model e pede para a View mostrar
+// Controller (Chefe de Equipe): recebe comandos, atualiza o Model e pede para a View mostrar, é onde implementa o CRUD
 public class PilotoController
 {
     private Piloto piloto;

@@ -1,6 +1,6 @@
 ﻿namespace AS_DesignPatternsF1.MVC;
 
-// View: apenas mostra informações
+// View (Painel de Resultados): apenas mostra informações
 public class PilotoView
 {
     public void MostrarDetalhes(Piloto piloto)

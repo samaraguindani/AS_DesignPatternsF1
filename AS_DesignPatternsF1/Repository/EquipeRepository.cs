@@ -1,6 +1,6 @@
 ﻿namespace AS_DesignPatternsF1.Repository;
 
-// Implementação: guarda equipes em memória (simulando banco de dados)
+// Implementação (Garagem Central): guarda equipes em memória (simulando banco de dados)
 public class EquipeRepository : IEquipeRepository
 {
     private List<Equipe> equipes = new List<Equipe>();

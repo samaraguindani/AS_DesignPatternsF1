@@ -1,5 +1,9 @@
 ﻿using System;
+using AS_DesignPatternsF1.Command;
+using AS_DesignPatternsF1.Decorator;
 using AS_DesignPatternsF1.MVC;
+using AS_DesignPatternsF1.Observer;
+using AS_DesignPatternsF1.Proxy;
 using AS_DesignPatternsF1.Repository;
 using AS_DesignPatternsF1.Strategy;
 
@@ -27,11 +31,34 @@ class Program
             Console.WriteLine($"Equipe: {equipe.Nome}\n");
         }
 
-        Console.WriteLine("Strategy");
+        Console.WriteLine("\nStrategy");
         var pilotoCorrida = new PilotoCorrida(new EstrategiaAgressiva());
         pilotoCorrida.Correr();
 
         pilotoCorrida.DefinirEstrategia(new EstrategiaConservadora());
         pilotoCorrida.Correr();
+        
+        Console.WriteLine("\nObserver");
+        var t1 = new Torcedor("João");
+        var t2 = new Torcedor("Samara");
+        var corrida = new Corrida(t1, t2);
+        corrida.Notificar("Safety Car entrou na pista!");
+
+        Console.WriteLine("\nDecorator");
+        ICarro carro = new CarroBase();
+        carro = new CarroComDRS(carro);
+        carro = new CarroComPneusNovos(carro);
+        Console.WriteLine(carro.Descricao());
+
+        Console.WriteLine("\nProxy");
+        ITelemetria telemetria1 = new TelemetriaProxy(true);
+        telemetria1.Enviar();
+        ITelemetria telemetria2 = new TelemetriaProxy(false);
+        telemetria2.Enviar();
+
+        Console.WriteLine("\nCommand");
+        var engenheiro = new Engenheiro();
+        engenheiro.EnviarComando(new ComandoBox());
+        engenheiro.EnviarComando(new ComandoPush());
     }
 }
